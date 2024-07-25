@@ -1,0 +1,22 @@
+.more-info {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+    article {
+        max-width: 35%;
+        margin-bottom: 20px;
+    }
+    & .article-img {
+        width: 70px;
+    }
+    & .article-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: $black;
+        margin-bottom: 8px;
+    }
+    & .article-info {
+        font-size: 14px;
+        color: $grey;
+    }
+}

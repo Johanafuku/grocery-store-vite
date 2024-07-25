@@ -1,0 +1,118 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+
+    & .content {
+        width: 55%;
+        h1 {
+            font-family: $secundary-font;
+            font-size: 60px;
+            font-weight: bold;
+            color: $black;
+            margin-bottom: 16px;
+            span {
+                color: $orange;
+            }
+        }
+        & .hero-description {
+            color: $grey;
+            font-size: 19px;
+            max-width: 80%;
+            margin-bottom: 30px;
+        }
+
+        & .hero-search {
+            width: 72%;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 40px;
+            input {
+                width: 80%;
+                background-color:rgb(#D0D0D2, 0.25);
+                padding: 12px 28px;
+                border: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                font-size: 14px;
+                display: inline-block;
+                &::placeholder {
+                    color: #949494;
+                    font-weight: 300;
+                }
+            }
+            button {
+                background-color: $orange;
+                display: inline-block;
+                padding: 8px 10px;
+                border: 0;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                img {
+                    width: 20px;
+                    padding: 2px;
+                }
+            }
+        }
+    }
+    & .list {
+        @include reset-list();
+        flex-wrap: wrap;
+        width: 60%;
+        gap: 20px;
+        li {
+            width: 45%;
+            color: $grey;
+            position: relative;
+            padding-left: 28px;
+            font-size: 14px;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 20px;
+                height: 20px;
+                background-image: url('../../img/check.svg');
+                background-repeat: no-repeat;
+                background-position: center center;
+                border-radius: 50%;
+                left: 0;
+            }
+        }
+    }
+    & .img {
+        width: 45%;
+         &::before {
+            position: absolute;
+            content: '';
+            background-image: url('../../img/rectangle.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 380px;
+            height: 460px;
+            top: 150px;
+            left: 600px;
+            z-index: -1;
+        }
+        &::after {
+              position: absolute;
+            content: '';
+            background-image: url('../../img/rectangle-1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 380px;
+            height: 380px;
+            top: 235px;
+            left: 670px;
+            z-index: -2;
+        }
+        img {
+            z-index: 1;
+            max-width: 85%;
+            position: relative;
+            left: -120px;
+            top: -60px;
+       
+        }
+    }
+
+}

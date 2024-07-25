@@ -1,0 +1,36 @@
+header.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .login {
+        ul {
+            @include reset-list();
+            gap: 40px;
+            position: relative;
+            a.car::before {
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: $orange;
+                left: 24px;
+                top: -4px;
+            }
+         
+           
+            img {
+                width: 25px;
+                position: relative;
+            
+            &:hover {
+                opacity: 15%;
+            }
+            }
+        }
+       
+    }
+}

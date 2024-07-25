@@ -1,0 +1,46 @@
+//mixin llamado breakpoint que toma un parametro bp
+@mixin breakpoint($bp) {
+
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  } 
+  
+@if $bp == tablethorizontal {
+  @media (min-width: $bp-tablet-horizontal) {
+    @content;
+    }
+  } 
+
+@if $bp == desktop {
+  @media (min-width: $bp-desktop) {
+    @content;
+  }
+} 
+
+@if $bp == desktopxl {
+  @media (min-width: $bp-desktop-xl) {
+    @content;
+}
+} 
+}
+
+// resetear formato de las listas
+@mixin reset-list(){
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+//formato de botones
+@mixin button {
+  color: white;
+  background-color: $orange;
+  display: inline-block;
+  padding: 9px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 14px;
+
+}
