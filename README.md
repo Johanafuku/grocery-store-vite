@@ -1,5 +1,5 @@
 # grocery-store-vite 🚚
-In this project from my master program :), I used vite, Vanilla, Sass to have a clean look, and have more order in the sheets for a grocery web store design.
+In this project from my master program, I used vite, Vanilla, Sass to have a clean look, and have more order in the sheets for a grocery web store design.
 
 ***
 ## Features 📝
@@ -23,7 +23,7 @@ Hope you find it useful ! 💡
 ***
 ***
 # grocery-store-vite 🚚
-Este es un proyecto del master que me encuentro cursando :) aquí use vite, Vanilla, Sass para un desarrollo de diseño más dinámico y ordenado de una tienda de alimentos online.
+Este es un proyecto del master que me encuentro cursando, aquí use vite, Vanilla, Sass para un desarrollo de diseño más dinámico y ordenado de una tienda de alimentos online.
 
 ***
 ## Características 📝
