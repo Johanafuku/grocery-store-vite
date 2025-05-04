@@ -2,6 +2,10 @@
 In this project from my master program, I used vite, Vanilla, Sass to have a clean look, and have more order in the sheets for a grocery web store design.
 
 ***
+## Preview:
+<img src='/base-vite-project-sass/img/preview_project.png' width="80%">
+
+***
 ## Features 📝
 
 1.- Use of 7-1-pattern for scss.
@@ -24,6 +28,10 @@ Hope you find it useful ! 💡
 ***
 # grocery-store-vite 🚚
 Este es un proyecto del master que me encuentro cursando, aquí use vite, Vanilla, Sass para un desarrollo de diseño más dinámico y ordenado de una tienda de alimentos online.
+
+***
+## Vista previa:
+<img src='/base-vite-project-sass/img/preview_project.png' width="80%">
 
 ***
 ## Características 📝
